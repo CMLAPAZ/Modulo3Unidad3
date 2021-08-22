@@ -1,0 +1,260 @@
+<nav class="navbar navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Cerveceria X</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li a data-scroll class="nav-item active">
+                <a data-scroll class="nav-link" href="#name">Home <span class="sr-only">(current)</span></a>
+
+            </li>
+            <li class="nav-item">
+                <a data-scroll class="nav-link" href="#novedades">Novedades</a>
+            </li>
+            <li class="nav-item">
+                <a data-scroll class="nav-link" href="#historia">Historia</a>
+            </li>
+            <li class="nav-item">
+                <a data-scroll class="nav-link" href="#nosotros">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a data-scroll class="nav-link" href="#conocenos">Conócenos</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<div> class = "container-fluid"
+    <!--contenedor-->
+    <div id="name" class="row align_item_center hero">
+
+        <div class="col-lg-3 offset-lg-2">
+            <p>Bajada</p>
+            <h1>Titulo Principal</h1>
+            </p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ut suscipit ducimus distinctio
+            impedit
+            explicabo, ex fugit, eum adipisci voluptatibus autem temporibus aspernatur totam perferendis laudantium,
+            cum
+            accusantium deleniti facilis?</p>
+        </div>
+    </div>
+
+    <!--Novedades-->
+    <div id="novedades" class="row py-4">
+        <div class="col-md-5 offset-md-2 py-3">
+            <h2>Novedades</h2>
+            <ul class="lista-novedades">
+                <li><a data-toggle="modal" data-target="#exampleModal" href="#"><img src="images/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                <li><a href="#"><img src="images/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                <li><a href="#"><img src="images/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                <li><a href="#"><img src="images/novedades01.jpg">
+                        Nuevas recetas</a></li>
+                <li><a href="#"><img src="images/novedades01.jpg">
+                        Nuevas recetas</a></li>
+            </ul>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Titulo Modal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At beatae neque explicabo, odio
+                        quidem
+                        magni eius esse! Ducimus impedit ullam, omnis voluptatibus exercitationem numquam nemo ab
+                        sed,
+                        quasi culpa nesciunt.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin del modal-->
+        <!--Testimonios-->
+        <div class="col-md-3">
+            <div class="rounded py-3 testimonios">
+                <h2 class="text-center"> Testimonios</h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonio">
+                                <h5>La Mejor birra del Mundo!!</h5>
+                                <p>Iván Marusich</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="testimonio">
+                                <h5>La Mejor birra !!</h5>
+                                <p>Adolfo Miño</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="testimonio">
+                                <h5>La Mejor!!</h5>
+                                <p>Camila Jaime</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--carrusel-->
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <!--fin testimonio-->
+    </div>
+    <!--fin novedad-->
+    <!--Historia-->
+    <div id="historia" class="row align-items-center py-4">
+        <div class="col-lg-2 col-md-3 offset-lg-2 d-done d-sm-block">
+            <img src="images/historia_1.jpg" alt="historia 1" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 d-done d-sm-block">
+            <img src="images/historia_2.jpg" alt="historia 2" class="img-fluid">
+        </div>
+        <div class="col-12 d-sm-none">
+            <img src="images/historia_3.jpg" alt="historia 3" class="img-fluid">
+        </div>
+        <div class="col-lg-4 col-ms-6 mt-4 mt-sm-1">
+            <h2>Historia</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nesciunt voluptate commodi ratione
+                nisi culpa,
+                velit exercitationem quas esse aliquam nobis ex explicabo? Qui iure repudiandae voluptatum eius
+                laudantium
+                magnam?</p>
+        </div>
+    </div>
+    <!--Fin Historia-->
+    <!--nosotros-->
+    <div id="nosotros" class="row align-items-strech my-3 staff py-4">
+        <div class="col-lg-8 offset-lg-2">
+            <P> </P><Br></Br>
+            <h2> Nosotros</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/nosotros01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Carola Martin</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/nosotros02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iván Marusich</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/nosotros03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Adolfo Miño</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/nosotros04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ian Martin</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height
+                            action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="conocenos" class="row py-4">
+        <div class="col-md-4 offset-md-2">
+            <h2>Visítanos</h2>
+            <div class="embed-responsive-16by9">
+                <iframe class="embed-responsive-item"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.816979289966!2d-59.652543785585536!3d-30.751642071487506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b34df0ae1394ed%3A0xa090dbcaf18b88a!2sDorrego%202000%2C%20E3190%20La%20Paz%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses-419!2sar!4v1625929937875!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen=""></iframe>
+    
+            </div>
+        </div>
+   
+        <!--aranca formulario-->
+    <div class="col-md-6 -md-6 mt-4 mt-sm-0">
+            <h2>Contáctanos</h2>
+            <form action="/" method="post">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+    
+                        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-md-6">
+    
+                        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="...">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Tel</label>
+                    <input type="text" class="form-control" id="telefono" name="telefono" placeholder="...">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Enviar</button>
+    
+            </form>
+            {{message}}
+            <!--fin formulario-->
+    </div>
+    </div>
+
+</div>
+<!--contenedor-->
+<footer>
+    <p class="text-center">Diseñado por: Carola Martin 2021</p>
+</footer>
